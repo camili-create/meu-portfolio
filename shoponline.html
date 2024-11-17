@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Virtual - ShopOnline</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #696363;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        main {
+            background: #696363;
+            color:white;
+            padding: 2rem;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 4rem;
+        }
+        .product {
+            border: 1px solid #ddd;
+            padding: 1rem;
+            text-align: center;
+            border-radius: 8px;
+            transition: transform 0.2s;
+        }
+        .product:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            background: #696363;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 12rem; /* barra de contato */
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>ShopOnline</h1>
+    <p>A melhor loja virtual para suas compras</p>
+</header>
+
+<main>
+    <div class="product">
+        <h2>Produto 1</h2>
+        <p>Descrição breve do produto.</p>
+        <button>Comprar</button>
+    </div>
+    <div class="product">
+        <h2>Produto 2</h2>
+        <p>Descrição breve do produto.</p>
+        <button>Comprar</button>
+    </div>
+    <div class="product">
+        <h2>Produto 3</h2>
+        <p>Descrição breve do produto.</p>
+        <button>Comprar</button>
+    </div>
+</main>
+
+<footer>
+    <p>Entre em contato: <a href="mailto:contato@shoponline.com">contato@shoponline.com</a></p>
+</footer>
+</body>
+</html>
